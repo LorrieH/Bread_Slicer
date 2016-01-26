@@ -9,7 +9,7 @@ public class BreadSpawner : MonoBehaviour {
 
     void Start()
     {
-        InvokeRepeating("SpawnBread", 0.5f, 6);
+        InvokeRepeating("SpawnBread", 0.5f, Random.Range(1,4));
     }
 
     void SpawnBread()

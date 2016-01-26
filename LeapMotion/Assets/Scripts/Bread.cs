@@ -41,7 +41,9 @@ public class Bread : MonoBehaviour {
     }
 
     void OnDestroy()
-    { 
+    {
         GameObject.Find("UI").GetComponent<UI>().UpdateScore();
+        GameObject.Find("Camera").GetComponent<CameraShake>().Shake();
     }
+
 }

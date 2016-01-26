@@ -2,7 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class UI : MonoBehaviour {
+public class UI : MonoBehaviour
+{
 
     private int _score = 0;
     private int _time = 60;
@@ -14,14 +15,15 @@ public class UI : MonoBehaviour {
     private Text _gameOverText;
     [SerializeField]
     private GameObject _spawner;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         StartCoroutine(TimerCountDown());
-	}
+    }
 
     public void UpdateScore()
     {
-        _score+= 10;
+        _score += 10;
         _scoreText.text = "Score: " + _score;
 
     }
@@ -40,11 +42,6 @@ public class UI : MonoBehaviour {
         {
             StartCoroutine(TimerCountDown());
         }
-        
-    }
 
-    public void RestartGame()
-    {
-        Application.LoadLevel(0);
     }
 }
