@@ -1,4 +1,5 @@
 Base path: C:/Program Files/Unity/Editor/Data
+<<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-12688
 Cmd: getPlatforms
 Cmd: preprocess
@@ -41,3 +42,19 @@ Cmd: compileSnippet
   api=4 type=0 insize=6924 outsize=4053 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=6924 outsize=1631 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+=======
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-10128
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=4 type=0 insize=3247 outsize=2322 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3247 outsize=3508 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3242 outsize=2322 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3242 outsize=5832 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=982 outsize=4337 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=982 outsize=10926 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+>>>>>>> 93f9ffd452167bdc6eed1aa177a274429e59417f

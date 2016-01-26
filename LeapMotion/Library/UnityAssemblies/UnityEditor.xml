@@ -15291,11 +15291,14 @@ To force a reload of the mask, simply set  ModelImporterClipAnimation.maskSource
         <para>Icon is prerendered.</para>
       </summary>
     </member>
+<<<<<<< HEAD
     <member name="P:UnityEditor.PlayerSettings.iOS.requiresFullScreen">
       <summary>
         <para>RequiresFullScreen maps to Apple's plist build setting UIRequiresFullScreen, which is used to opt out of being eligible to participate in Slide Over and Split View for iOS 9.0 multitasking.</para>
       </summary>
     </member>
+=======
+>>>>>>> 93f9ffd452167bdc6eed1aa177a274429e59417f
     <member name="P:UnityEditor.PlayerSettings.iOS.requiresPersistentWiFi">
       <summary>
         <para>Application requires persistent WiFi.</para>
@@ -15811,11 +15814,14 @@ To force a reload of the mask, simply set  ModelImporterClipAnimation.maskSource
         <para>If we should use reprojection when running in VR mode with Project Morpheus.</para>
       </summary>
     </member>
+<<<<<<< HEAD
     <member name="P:UnityEditor.PlayerSettings.PS4.socialScreenEnabled">
       <summary>
         <para>Enables PS4 Player support for the Morpheus Social Screen when running in VR mode.</para>
       </summary>
     </member>
+=======
+>>>>>>> 93f9ffd452167bdc6eed1aa177a274429e59417f
     <member name="P:UnityEditor.PlayerSettings.PS4.useAudio3dBackend">
       <summary>
         <para>True to use the Sony Audio3dOut backend libs otherwise it will use the default AudioOut backend.</para>
@@ -16216,11 +16222,14 @@ To force a reload of the mask, simply set  ModelImporterClipAnimation.maskSource
         <para>Memory expansion mode enum.</para>
       </summary>
     </member>
+<<<<<<< HEAD
     <member name="F:UnityEditor.PlayerSettings.PSVita.PSVitaMemoryExpansionMode.ExpandBy109MB">
       <summary>
         <para>Enable 109MB memory expansion mode.</para>
       </summary>
     </member>
+=======
+>>>>>>> 93f9ffd452167bdc6eed1aa177a274429e59417f
     <member name="F:UnityEditor.PlayerSettings.PSVita.PSVitaMemoryExpansionMode.ExpandBy29MB">
       <summary>
         <para>Enable 29MB memory expansion mode.</para>
