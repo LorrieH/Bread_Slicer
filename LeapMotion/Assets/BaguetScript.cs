@@ -16,7 +16,7 @@ public class BaguetScript : MonoBehaviour {
     {
         for (byte i = 0; i < 4; i++)
         {
-            GameObject Bread = Instantiate(baguet, new Vector3(Random.Range(10, 30), Random.Range(-25, -35), -32), Quaternion.identity) as GameObject;
+            GameObject Bread = Instantiate(baguet, new Vector3(Random.Range(10, 30), Random.Range(-25, -35), -32), Random.rotation) as GameObject;
             Bread.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.Impulse);
         }
     }
