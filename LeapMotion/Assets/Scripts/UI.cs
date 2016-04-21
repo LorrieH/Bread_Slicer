@@ -23,9 +23,11 @@ public class UI : MonoBehaviour
 
     public void UpdateScore()
     {
-        _score += 10;
-        _scoreText.text = "Score: " + _score;
-
+        if(_score != null)
+        {
+            _score += 10;
+            _scoreText.text = "Score: " + _score;
+        }
     }
 
     IEnumerator TimerCountDown()

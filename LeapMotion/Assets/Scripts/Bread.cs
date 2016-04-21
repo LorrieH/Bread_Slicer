@@ -7,6 +7,9 @@ public class Bread : MonoBehaviour {
     [SerializeField]
     private GameObject _breadSlice;
 
+    [SerializeField]
+    private GameObject explosion;
+
     private Vector3 rotationSpeed;
 
     private float minSpeed = 1;
@@ -37,13 +40,17 @@ public class Bread : MonoBehaviour {
             {
                 Instantiate(_breadSlice, tempLoc, Random.rotation);
             }
+            Instantiate(explosion, tempLoc, Random.rotation);
         }
     }
 
     void OnDestroy()
     {
-        GameObject.Find("UI").GetComponent<UI>().UpdateScore();
-        GameObject.Find("Camera").GetComponent<CameraShake>().Shake();
+        if(GameObject.Find("UI") != null)
+        {
+            GameObject.Find("UI").GetComponent<UI>().UpdateScore();
+            GameObject.Find("Camera").GetComponent<CameraShake>().Shake();
+        }
     }
 
 }

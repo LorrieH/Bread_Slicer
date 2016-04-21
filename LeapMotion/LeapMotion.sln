@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapMotion.CSharp.Plugins", "LeapMotion.CSharp.Plugins.csproj", "{16BF0B17-97BC-1783-AD4A-2D64EE52C024}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapMotion.CSharp", "LeapMotion.CSharp.csproj", "{578FAC28-F5C2-24AE-A176-C56666DEAB27}"
